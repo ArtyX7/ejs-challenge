@@ -1,0 +1,24 @@
+<%- include("parcials/header") %>
+
+    <div class="container-fluid">
+        <h1>HOME</h1>
+        <p>
+            <%= startingContent %>
+        </p>
+        <% posts.forEach(element=> { %>
+            <div>
+                <h1>
+                    <%= element.postTitle %>
+                </h1>
+                <p>
+                    <%= element.postMessage.substring(0,99)%> ... 
+                    <span><a href="/posts/<%= element.postTitle.toLowerCase() %>">View More</a></span>
+                </p>
+            </div>
+            <% }); %>
+
+
+
+    </div>
+
+    <%- include("parcials/footer" )%>

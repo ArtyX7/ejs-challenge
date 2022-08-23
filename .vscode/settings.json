@@ -1,0 +1,9 @@
+{
+   "terminal.integrated.shell.windows": "C:\Program Files\PowerShell\7\pwsh.exe",
+   "css.styleSheets": [
+   "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+   "/styles.css",
+   "public/css/styles.css",
+   "css/styles.css"
+]
+}
